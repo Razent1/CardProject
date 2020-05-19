@@ -1,0 +1,70 @@
+
+.player1 {
+    display: flex;
+    padding: 10px;
+    width: 29%;
+    margin-left: 35.5%;
+    color: blue;
+    font-size: 1.3em;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgreen;
+    border: 10px black;
+}
+
+.player2{
+    display: flex;
+    padding: 10px;
+    width: 29%;
+    margin-left: 35.5%;
+    color: blue;
+    font-size: 1.3em;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightcoral;
+
+}
+#winnerField{
+    display: flex;
+    padding: 10px;
+    width: 29%;
+    margin-left: 35.5%;
+    margin-top: 10%;
+    color: green;
+    font-size: 1.3em;
+    flex-direction: row;
+    align-items: center;
+}
+#winnerField h2{
+    text-shadow: black;
+    font-size: 300%;
+    text-align: center;
+}
+#ruls{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#ruls h2{
+    text-align: center;
+}
+
+.cardP1{
+    margin-top: 30%;
+}
+.cardP2{
+    margin-bottom: 30%;
+}
+h1{
+    margin: 0;
+}
+button {
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 0.65em;
+    color: red;
+    outline: none;
+}
+
